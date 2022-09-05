@@ -35,8 +35,8 @@ class Producto {
 function borrarTodo() {
     localStorage.clear();
     document.location.reload();
-    renderizarHtml();
-  
+    renderizarHtml(arrayProductos);
+    
 }
 
 function renderizarHtml(array) {
