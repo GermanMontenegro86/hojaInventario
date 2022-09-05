@@ -34,7 +34,9 @@ class Producto {
 
 function borrarTodo() {
     localStorage.clear();
+    document.location.reload();
     renderizarHtml();
+  
 }
 
 function renderizarHtml(array) {
@@ -153,6 +155,7 @@ eliminar.addEventListener("click", () => {
     }).then((result) => {
         if (result.isConfirmed) {
             borrarTodo();
+           
 
         }
     })

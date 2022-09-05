@@ -44,15 +44,21 @@
 
 
         <div id="container-inputs">
-                <label>Buscar producto por el nombre</label>
-            <input type="text" class="form-control" id="nombre-producto" name="prod"
-                placeholder="Nombre del producto" >
+            
             <div>
+                <label > Buscar por cantidad de stock</label>
                 <input id="desde" type="number" placeholder="Stock desde">
                 <input id="hasta" type="number" placeholder="Stock hasta">
                 <button id="filtrar" class="btn btn-success">Buscar</button>
                 <button id="volver" class="btn btn-success">volver</button>
             </div>
+        </div>
+
+
+        <div class="buscarProducto">
+            <label>Buscar producto por el nombre</label>
+            <input type="text" class="form-control" id="nombre-producto" name="prod"
+                placeholder="Nombre del producto" >
         </div>
 
         <form id="formulario">

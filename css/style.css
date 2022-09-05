@@ -61,10 +61,8 @@ main div {
   
 }
 
-#container-inputs div {
-  display: flex;
-  gap: 10px;
-  
+#container-inputs button{
+  margin-top: 10px;
 }
 
 input {
@@ -93,8 +91,10 @@ table {
   margin-left: -196PX;
 }
 
-#container-inputs button {
-  transform: translate(-295px, 48px);
+
+
+.buscarProducto{
+  margin-top: 20px;
 }
 
 
